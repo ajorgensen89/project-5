@@ -7,11 +7,14 @@ import NavBar from './components/NavBar';
 function App() {
   return (
     <div className="App">
+      <div>
+        <NavBar />
+      </div>
 
       <div className="App-header">
-        <div>
+        {/* <div>
           <NavBar />
-        </div>
+        </div> */}
         <div>
           <Button variant="secondary">Secondary</Button>{' '}
 
