@@ -1,12 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import Button from 'react-bootstrap/Button';
+import NavBar from './components/NavBar';
+
 
 function App() {
   return (
     <div className="App">
 
       <div className="App-header">
+        <div>
+          <NavBar />
+        </div>
         <div>
           <Button variant="secondary">Secondary</Button>{' '}
 
