@@ -2,6 +2,14 @@ LIBRARY
 install React Router
 npm install react-router-dom
 
+REACT BOOTSTRAP FORM
+<br>
+[React Bootstrap Form](https://react-bootstrap-v4.netlify.app/components/forms/)
+
+NAV REACT
+<br>
+[React NavBar](https://react-bootstrap.github.io/docs/components/navbar)
+
 Wrap App conponent inside <Router>.
 
 # Design
