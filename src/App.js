@@ -1,40 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-import Button from 'react-bootstrap/Button';
+// import logo from './logo.svg';
+// import './App.css';
+import styles from "./styles/App.module.css";
+// import Button from 'react-bootstrap/Button';
 import NavBar from './components/NavBar';
+/** To Switch between each page via a Route using 'React Routing' */
+import { Route, Switch } from "react-router-dom";
+/** Using Container from 'React Bootstrap */
+import Container from "react-bootstrap/Container";
 
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <div>
         <NavBar />
-      </div>
-
-      <div className="App-header">
-        {/* <div>
-          <NavBar />
-        </div> */}
-        <div>
-          <Button variant="secondary">Secondary</Button>{' '}
-
-          <Button variant="success">Success</Button>
-        </div>
-        <div>
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-
-          </a>
-        </div>
+        <Container className={styles.Main}>
+        <Switch>
+          <Route exact path="/" render={() => <h1>Home page</h1>} />
+          <Route exact path="/signin" render={() => <h1>Sign in</h1>} />
+          <Route exact path="/signup" render={() => <h1>Sign up</h1>} />
+          <Route render={() => <h1>Page not found!</h1>} />
+        </Switch>
+        </Container>
       </div>
 
     </div>

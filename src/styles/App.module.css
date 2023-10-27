@@ -1,0 +1,44 @@
+.App {
+    font-family: "Donegal One", sans-serif;
+    background-color: #c8c2c2;
+    min-height: 100vh;
+  }
+  
+  .Main {
+    padding-top: 80px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  a {
+    color: #555555;
+    transition: color ease-in-out 0.1s;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:hover i {
+    color: #e85100;
+    transition: color ease-in-out 0.1s;
+  }
+  
+  i {
+    color: #cecdd1;
+    font-size: 20px;
+    padding: 7px;
+    vertical-align: middle;
+  }
+  
+  i:hover {
+    cursor: pointer;
+    transition: color ease-in-out 0.1s;
+    color: #f95c07;
+  }
+  
+  h1 {
+    color: #555555;
+  }

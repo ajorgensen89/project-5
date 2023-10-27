@@ -1,0 +1,14 @@
+.NavBar {
+    background-color: #ffffff;
+    border: 1px solid #555555;
+  }
+  
+  /**Not registering bgc in NavBar - in .App in App.modules.css**/
+  
+  .NavLink {
+    padding: 5px;
+  }
+  
+  .Active i {
+    color: #f5c66e;
+  }
