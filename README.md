@@ -2,6 +2,9 @@ LIBRARY
 install React Router
 npm install react-router-dom
 
+INFINTE SCROLL LIBARY
+npm install react-infinite-scroll-component
+
 REACT BOOTSTRAP FORM
 <br>
 [React Bootstrap Form](https://react-bootstrap-v4.netlify.app/components/forms/)
