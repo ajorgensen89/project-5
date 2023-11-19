@@ -7,7 +7,11 @@ import NavBar from './components/NavBar';
 import { Route, Switch } from "react-router-dom";
 /** Using Container from 'React Bootstrap */
 import Container from "react-bootstrap/Container";
+import './api/axiosDefaults';
 
+
+/** Switch holds route. Exact path is rendered when matching. */
+/**Link to NavBar.js */
 
 function App() {
   return (

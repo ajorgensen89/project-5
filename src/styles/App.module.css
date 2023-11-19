@@ -1,17 +1,20 @@
+/*Place here for use across the project.*/
 .App {
     font-family: "Donegal One", sans-serif;
     background-color: #c8c2c2;
     min-height: 100vh;
   }
   
+  /*Push content down page from top.*/
   .Main {
     padding-top: 80px;
   }
   
-  * {
+  /* * {
     box-sizing: border-box;
-  }
+  } */
   
+  /*Apllied to anchor links. Changes colour when anchor link is hovered over.*/
   a {
     color: #555555;
     transition: color ease-in-out 0.1s;
@@ -26,6 +29,7 @@
     transition: color ease-in-out 0.1s;
   }
   
+  /*Applied to icons. Padding and change colour when mouse hovers over icon.*/
   i {
     color: #cecdd1;
     font-size: 20px;
@@ -39,6 +43,7 @@
     color: #f95c07;
   }
   
+  /* Headers */
   h1 {
     color: #555555;
   }

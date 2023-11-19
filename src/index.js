@@ -12,6 +12,7 @@ ReactDOM.render(
       <App />
     </Router>
   </React.StrictMode>,
+  // Provide route to index.html page.
   document.getElementById('root')
 );
 
